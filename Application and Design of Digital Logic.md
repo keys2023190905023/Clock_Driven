@@ -26,7 +26,8 @@
 * Act as a bridge between the control unit and memory<br/>
 </blockquote>
 5. Bus = Data Bus + Address Bus + Control Bus   
-<img width="885" height="537" alt="image" src="https://github.com/user-attachments/assets/10e878a8-7336-4e81-9f55-7a32ef43ab79" /><br/>
+   <img width="885" height="537" alt="image" src="https://github.com/user-attachments/assets/10e878a8-7336-4e81-9f55-7a32ef43ab79" /><br/>
+   
 * 可以复用
 ---
 ### Organization of Center Processor Unit
@@ -43,7 +44,8 @@ Register:<br/>
 | ① 暂存计算结果------| 存储 ALU 的输出，为下一步运算做准备----------| *Stores the result from ALU temporarily for further operations*               <br/>
 | ② 提供 ALU 操作数---| 当前寄存器内容可以再次送入 ALU，形成数据回环--| *Acts as operand input to ALU, forming a feedback loop*                      <br/>
 | ③ 数据输出接口------| 作为系统的 `Data Outputs`，可输出到外部------| *Provides final data output to the external bus/system*                      <br/>
-| ④ 与状态控制联动----| 配合状态机形成多周期操作的中间存储------------| *Works with controller to hold intermediate values in multi-cycle execution* <br/><br/>
+| ④ 与状态控制联动----| 配合状态机形成多周期操作的中间存储------------| *Works with controller to hold intermediate values in multi-cycle execution* <br/>
+
 * CPU will be discussed in another storage
 ---
 ### Analog to Digital
@@ -54,13 +56,40 @@ Sampling--->quantifying & coding--->representing<br/>
    <img width="776" height="152" alt="image" src="https://github.com/user-attachments/assets/d92919a4-5beb-45d0-ab9b-47215f399f34" />
 2. Digital signal<br/>
    <img width="806" height="187" alt="image" src="https://github.com/user-attachments/assets/793f89da-ca55-4135-9c48-dd63a0b030bb" /><br/>
+   
 ---
 ### Mathematic Foundations
 ---
 #### Boolean / Logic / Switch Algebra
 ####  Positional & Polynomial Notation of Number
 > A fundamental concept in digital systems: how numbers are represented using position and base (radix).<br/>
---
-##### 🔢 General Form
+#####  General Form
 A number `N` in radix `r` can be expressed as:
+N = (dₙ₋₁ dₙ₋₂ ... d₁ d₀ . d₋₁ d₋₂ ... d₋ₘ)ᵣ
+
+
+- `dᵢ`: digit at position `i`
+- `r`: radix (base), e.g. 10 for decimal, 2 for binary
+- `.`: radix point (decimal point)
+- Digits to the **left** of the radix point: **integer digits**
+- Digits to the **right**: **fractional digits**
+- `dₙ₋₁`: Most Significant Digit (MSD)
+- `d₋ₘ`: Least Significant Digit (LSD)
+
+  
+#### Polynomial Expansion
+
+The value of `N` is calculated as: N = dₙ₋₁·rⁿ⁻¹ + dₙ₋₂·rⁿ⁻² + ... + d₀·r⁰ + d₋₁·r⁻¹ + d₋₂·r⁻² + ... + d₋ₘ·r⁻ᵐ
+
+---
+### Number Systems and Codes
+---
+
+- Digital system are built from circuits that process binary digits – 0s and 1s  ## 所有数字系统的底层运算和逻辑都是基于“0/1”进行的
+- Real-life numbers, events,  conditions → binary digits  ## “编码”（Encode）过程的核心 —— 把模拟世界的信息转成数字世界可识别的格式。
+- Binary number system and binary arithmetic  ## 加法、减法、乘法、除法等运算规则，都是基于 0 和 1 的逻辑推导
+- Encode ## 编码：将文字、图像、声音等现实信息编码成“0/1”二进制形式，用于计算和传输
+
+#### Positional Number Systems
+- A number is represented by a string of digits where each digit position has an associated weight. ## 按位计数法------权重
 
