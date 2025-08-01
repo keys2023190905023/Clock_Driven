@@ -41,3 +41,11 @@ Register:<br/>
 | ③ 数据输出接口------| 作为系统的 `Data Outputs`，可输出到外部------| *Provides final data output to the external bus/system*                      <br/>
 | ④ 与状态控制联动----| 配合状态机形成多周期操作的中间存储------------| *Works with controller to hold intermediate values in multi-cycle execution* <br/>
 
+### Analog to Digital
+Sampling--->quantifying & coding--->representing<br/>
+#### Digital VS Analog
+1. Analog signal<br/>
+   <img width="776" height="152" alt="image" src="https://github.com/user-attachments/assets/d92919a4-5beb-45d0-ab9b-47215f399f34" />
+2. Digital signal<br/>
+   <img width="806" height="187" alt="image" src="https://github.com/user-attachments/assets/793f89da-ca55-4135-9c48-dd63a0b030bb" />
+
