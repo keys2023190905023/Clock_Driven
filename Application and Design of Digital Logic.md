@@ -47,6 +47,7 @@ Register:<br/>
 | ④ 与状态控制联动----| 配合状态机形成多周期操作的中间存储------------| *Works with controller to hold intermediate values in multi-cycle execution* <br/>
 
 * CPU will be discussed in another storage
+  
 ---
 ### Analog to Digital
 ---
@@ -56,6 +57,7 @@ Sampling--->quantifying & coding--->representing<br/>
    <img width="776" height="152" alt="image" src="https://github.com/user-attachments/assets/d92919a4-5beb-45d0-ab9b-47215f399f34" />
 2. Digital signal<br/>
    <img width="806" height="187" alt="image" src="https://github.com/user-attachments/assets/793f89da-ca55-4135-9c48-dd63a0b030bb" /><br/>
+
    
 ---
 ### Mathematic Foundations
@@ -91,5 +93,12 @@ The value of `N` is calculated as: N = dₙ₋₁·rⁿ⁻¹ + dₙ₋₂·rⁿ�
 - Encode ## 编码：将文字、图像、声音等现实信息编码成“0/1”二进制形式，用于计算和传输
 
 #### Positional Number Systems
-- A number is represented by a string of digits where each digit position has an associated weight. ## 按位计数法------权重
+> A number is represented by a string of digits where each digit position has an associated weight. ## 按位计数法
+* Decimal Number<br/>
+  <img width="814" height="450" alt="image" src="https://github.com/user-attachments/assets/4a3dc60e-85b0-4be5-8914-2753e08cef54" />
+> Most significant digit(MSD):(p-1)
+> Least significant digit(LSD):-n
+* Binary Number<br/>
+<img width="847" height="226" alt="image" src="https://github.com/user-attachments/assets/0b1e1472-310d-4e19-887e-cd7a76553f53" />
+
 
