@@ -96,9 +96,19 @@ The value of `N` is calculated as: N = dₙ₋₁·rⁿ⁻¹ + dₙ₋₂·rⁿ�
 > A number is represented by a string of digits where each digit position has an associated weight. ## 按位计数法
 * Decimal Number<br/>
   <img width="814" height="450" alt="image" src="https://github.com/user-attachments/assets/4a3dc60e-85b0-4be5-8914-2753e08cef54" />
-> Most significant digit(MSD):(p-1)
+> Most significant digit(MSD):(p-1)<br/>
 > Least significant digit(LSD):-n
 * Binary Number<br/>
 <img width="847" height="226" alt="image" src="https://github.com/user-attachments/assets/0b1e1472-310d-4e19-887e-cd7a76553f53" />
 
+> Most significant bit(MSB)<br/>
+> Least significant bit(LSB)
+* Supplementary Knowledge
+> bit<br/>
+> 1 byte = 8 bit<br/>
+> Memory:<br/>
+> 256M = 256M bytes<br/>
+> 1KB = 1024 bytes<br/>
+> 1MB = 1024 * 1024 bytes<br/>
+> 1GB = 1024 * 1024 * 1024 bytes
 
