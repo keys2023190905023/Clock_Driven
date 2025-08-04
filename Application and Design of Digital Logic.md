@@ -124,3 +124,7 @@ The value of `N` is calculated as: N = dₙ₋₁·rⁿ⁻¹ + dₙ₋₂·rⁿ�
 > 1MB = 1024 * 1024 bytes<br/>
 > 1GB = 1024 * 1024 * 1024 bytes
 
+#### Analyze according to precision
+<img width="1117" height="376" alt="image" src="https://github.com/user-attachments/assets/98a41cbd-8cad-41f5-a4ef-cdfa5b5d8f18" />
+
+
