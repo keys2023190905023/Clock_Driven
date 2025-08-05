@@ -127,4 +127,23 @@ The value of `N` is calculated as: N = dₙ₋₁·rⁿ⁻¹ + dₙ₋₂·rⁿ�
 #### Analyze according to precision
 <img width="1117" height="376" alt="image" src="https://github.com/user-attachments/assets/98a41cbd-8cad-41f5-a4ef-cdfa5b5d8f18" />
 
+#### Number Conversion 
+1. Octal number <---> Binary number
+> `each octal number = 3-bit binary number`<br/>
+> 2 nibbles = 1 byte = 8 bits<br/>
+<img width="684" height="310" alt="image" src="https://github.com/user-attachments/assets/256a31b2-980c-48ba-9972-540f84dcfa29" /><br/>
+2. Hexadecimal number <---> Binary number
+> `each hexademical number = 4-bit binary number`<br/>
+<img width="678" height="343" alt="image" src="https://github.com/user-attachments/assets/53f4f87a-0b27-4bb7-ba19-3fdad9173052" /><br/>
 
+#### Binary addition and subtraction
+<img width="575" height="381" alt="image" src="https://github.com/user-attachments/assets/17ded020-3149-4785-9591-215e250f3d64" />
+<img width="585" height="355" alt="image" src="https://github.com/user-attachments/assets/c72a05cf-525d-4871-b6ef-0f4e9cd1d2ef" />
+<img width="577" height="319" alt="image" src="https://github.com/user-attachments/assets/79677ca8-cebe-4e9a-bad7-72f8545b149b" />
+
+#### Signed-Magnitude Representation  --  符号-数值表示法  ***True Form***
+> `MSB --->  Sign Bit  ( 0 = plus, 1 = minus )`
+1. +0 = 00000000 | -0 = 10000000
+2. n-bit signed-magnitude 整数范围公式 
+<img width="271" height="44" alt="image" src="https://github.com/user-attachments/assets/f31e4d4f-8c06-4c4a-87d1-f8b3f475b437" />
+3. The signed-magnitude system has an equal number of positive and negative integers
