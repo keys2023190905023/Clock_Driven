@@ -141,9 +141,16 @@ The value of `N` is calculated as: N = dₙ₋₁·rⁿ⁻¹ + dₙ₋₂·rⁿ�
 <img width="585" height="355" alt="image" src="https://github.com/user-attachments/assets/c72a05cf-525d-4871-b6ef-0f4e9cd1d2ef" />
 <img width="577" height="319" alt="image" src="https://github.com/user-attachments/assets/79677ca8-cebe-4e9a-bad7-72f8545b149b" />
 
-#### Signed-Magnitude Representation  --  符号-数值表示法  ***True Form***
+#### Signed-Magnitude Representation  --  符号-数值表示法  ***True Form真值***
 > `MSB --->  Sign Bit  ( 0 = plus, 1 = minus )`
 1. +0 = 00000000 | -0 = 10000000
 2. n-bit signed-magnitude 整数范围公式 
-<img width="271" height="44" alt="image" src="https://github.com/user-attachments/assets/f31e4d4f-8c06-4c4a-87d1-f8b3f475b437" />
+<img width="271" height="44" alt="image" src="https://github.com/user-attachments/assets/f31e4d4f-8c06-4c4a-87d1-f8b3f475b437" /><br/>
 3. The signed-magnitude system has an equal number of positive and negative integers
+
+#### Complement Number Systems -- ***Complement Number补码***
+1. Radix-Complement(基数补码）
+If a number D is complemented twice, the result is D.
+<img width="679" height="225" alt="image" src="https://github.com/user-attachments/assets/d9941b8c-7f67-4b28-9059-dba66811cb9e" />
+2. 
+
