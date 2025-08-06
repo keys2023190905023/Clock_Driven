@@ -148,9 +148,30 @@ The value of `N` is calculated as: N = dₙ₋₁·rⁿ⁻¹ + dₙ₋₂·rⁿ�
 <img width="271" height="44" alt="image" src="https://github.com/user-attachments/assets/f31e4d4f-8c06-4c4a-87d1-f8b3f475b437" /><br/>
 3. The signed-magnitude system has an equal number of positive and negative integers
 
-#### Complement Number Systems -- ***Complement Number补码***
+#### Complement Number Systems -- ***反码补码***
 1. Radix-Complement(基数补码）
 If a number D is complemented twice, the result is D.
-<img width="679" height="225" alt="image" src="https://github.com/user-attachments/assets/d9941b8c-7f67-4b28-9059-dba66811cb9e" />
-2. 
+<img width="679" height="225" alt="image" src="https://github.com/user-attachments/assets/d9941b8c-7f67-4b28-9059-dba66811cb9e" /><br/>
+2. Diminished Radix – Complement（基数减1补码表示法（反码））
+<img width="571" height="167" alt="image" src="https://github.com/user-attachments/assets/2a7adc9b-49ee-4245-a694-d4c0b447a834" /><br/>
+---
+`In digital systems, positive integers are treated consistently across different number representations:`
+
+> **For positive numbers, the original code, one’s complement, and two’s complement are exactly the same.** 正数的反码补码就是本身
+
+There is no need to perform any transformation like bit inversion or addition.<br/>
+<img width="649" height="159" alt="image" src="https://github.com/user-attachments/assets/01f4258c-ae23-4b36-bb70-f1b7637e1839" /><br/>
+
+> **For positive numbers,Why No Changes for Positive Numbers?** 为什么不变
+
+- The special transformations (bitwise NOT, +1) are only used for **negative numbers**.
+- Positive values are already in a form that can be directly interpreted and used in arithmetic.  ## 加法器
+- This simplifies hardware design — no need to convert before using adders or ALUs.
+
+> ** Why Negative Numbers Need One's and Two's Complement？ **
+In digital logic systems, negative numbers cannot be directly handled by binary adders if we simply use sign bits (original code). To allow a unified circuit (adder) to process both positive and negative numbers without separate subtraction hardware, negative numbers are encoded in a way that makes subtraction possible via addition.<br/>
+
+> *** 
+---
+
 
