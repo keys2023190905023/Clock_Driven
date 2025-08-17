@@ -96,7 +96,7 @@ N = (dₙ₋₁ dₙ₋₂ ... d₁ d₀ . d₋₁ d₋₂ ... d₋ₘ)ᵣ
 The value of `N` is calculated as: N = dₙ₋₁·rⁿ⁻¹ + dₙ₋₂·rⁿ⁻² + ... + d₀·r⁰ + d₋₁·r⁻¹ + d₋₂·r⁻² + ... + d₋ₘ·r⁻ᵐ
 
 ---
-### Number Systems and Codes
+### Number Systems
 ---
 
 - Digital system are built from circuits that process binary digits – 0s and 1s  ## 所有数字系统的底层运算和逻辑都是基于“0/1”进行的
@@ -171,7 +171,19 @@ There is no need to perform any transformation like bit inversion or addition.<b
 > ** Why Negative Numbers Need One's and Two's Complement？ **
 In digital logic systems, negative numbers cannot be directly handled by binary adders if we simply use sign bits (original code). To allow a unified circuit (adder) to process both positive and negative numbers without separate subtraction hardware, negative numbers are encoded in a way that makes subtraction possible via addition.<br/>
 
-> *** 
 ---
 
+### Code
+> A set of n-bit strings in which different bit strings represent different numbers or other things is called a code.<br/>
+
+* 代表某事或某物的一组n位二进制码
+* three data units（3位二进制码）：bit/byte/word
+  
+<img width="645" height="149" alt="image" src="https://github.com/user-attachments/assets/b4a033cd-4bf0-4b6a-b04f-4b4b4bf52da4" />
+> Binary Codes for Decimal Numbers(十进制数的二进制编码)
+
+#### Binary-code decimal(BCD）
+> encodes the digits 0 through 9 by their 4-bit unsigned binary representations, 0000 through 1001.
+
+> The code words 1010 through 1111 are not used.(用 0000－1001 来表示十进制数 0－9.)---》一字节可表示0-99
 
