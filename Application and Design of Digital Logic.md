@@ -7,7 +7,7 @@
   - [Organization of Center Processor Unit](#organization-of-center-processor-unit)
   - [Analog to Digital](#analog-to-digital)
   - [Mathematic Foundations](#mathematic-foundations)
-  - [Number Systems and Codes](#number-systems-and-codes)
+  - [Number Systems](#number-systems)
 
 ---
 
