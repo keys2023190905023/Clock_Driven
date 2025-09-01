@@ -180,10 +180,81 @@ In digital logic systems, negative numbers cannot be directly handled by binary 
 * three data units（3位二进制码）：bit/byte/word
   
 <img width="645" height="149" alt="image" src="https://github.com/user-attachments/assets/b4a033cd-4bf0-4b6a-b04f-4b4b4bf52da4" />
+
 > Binary Codes for Decimal Numbers(十进制数的二进制编码)
 
 #### Binary-code decimal(BCD）
 > encodes the digits 0 through 9 by their 4-bit unsigned binary representations, 0000 through 1001.
 
 > The code words 1010 through 1111 are not used.(用 0000－1001 来表示十进制数 0－9.)---》一字节可表示0-99
+
+#### Other code
+<img width="873" height="646" alt="image" src="https://github.com/user-attachments/assets/f37bb572-d325-40f1-a435-4f466a012ecf" />
+
+#### Gray Code
+
+### Laws and Theorems of Boolean algebra
+> Used to simplify logic function
+
+#### Key Featurea
+* Two value:0/1<br/>
+* Dual pairs:定律成对出现
+
+<img width="507" height="197" alt="image" src="https://github.com/user-attachments/assets/90b05f3a-0ef4-4af9-b384-8ed9f44a02d7" />
+
+
+#### Laws
+* Axioms 公理
+<img width="392" height="112" alt="image" src="https://github.com/user-attachments/assets/42a7dfd4-bec1-4db9-9b75-c746ffdba332" />
+
+* Single variable theorems
+<img width="546" height="132" alt="image" src="https://github.com/user-attachments/assets/2adf4e08-cc45-4bb6-a04b-cbc1f3d66f17" />
+
+<img width="988" height="526" alt="image" src="https://github.com/user-attachments/assets/403f6c0b-bd5b-4e76-9f5e-ad07a444dd49" />
+
+
+* Multiple variable theorems
+<img width="556" height="118" alt="image" src="https://github.com/user-attachments/assets/b155840d-a3eb-4952-9717-be06b3317015" />
+
+<img width="810" height="588" alt="image" src="https://github.com/user-attachments/assets/f524b152-415d-475a-8c8e-a93dba1a3a6e" />
+
+<img width="868" height="509" alt="image" src="https://github.com/user-attachments/assets/33c794e0-1f5c-4712-acd8-fa14d5c429ff" />
+
+<img width="987" height="546" alt="image" src="https://github.com/user-attachments/assets/a46155c1-9281-4866-bfe9-af1e392994d9" />
+
+> Finite Induction
+* proving that the theorem is true for n = 2
+
+* Assuming that the theorem is true for n = i， proving that the theorem is true for n = i + 1
+
+#### Demorgan's Theorem
+<img width="782" height="162" alt="image" src="https://github.com/user-attachments/assets/063a6fd2-d287-4941-be30-5c934701085f" />
+
+#### Complement of a logic expression (F)’ (反演定律）
+`[F(X₁,X₂,···,Xₙ,+,·)]' = F(X₁',X₂',···,Xₙ',·,+)`
+
+<img width="721" height="294" alt="image" src="https://github.com/user-attachments/assets/780eb7be-f6c1-4dfc-9a88-df9716147250" />
+
+#### Duality（对偶定律）
+> Any theorem or identity in switching algebra remains true if 0 and 1 are swapped and . and + are swapped throughout.
+
+The dual of a logic expression:`F^D(X₁, X₂, ..., Xₙ, +, ·, ') = F(X₁, X₂, ..., Xₙ, ·, +, ')`
+
+`[F(X1,X2,...,Xn)]' = F^D(X1',X2',...,Xn')`
+
+<img width="847" height="283" alt="image" src="https://github.com/user-attachments/assets/f6da500c-ae3e-4631-8062-bcca389e4dc0" />
+
+<img width="1095" height="325" alt="image" src="https://github.com/user-attachments/assets/5fa368c0-abd4-432d-a1da-b2fa71d14f5f" />
+
+<img width="574" height="598" alt="image" src="https://github.com/user-attachments/assets/2a3517c8-929f-4f49-9f54-c34ab46fb6ff" /><img width="539" height="539" alt="image" src="https://github.com/user-attachments/assets/f0ad1c14-9260-4de1-99d0-49737e806fa9" /><br/>
+<img width="478" height="607" alt="image" src="https://github.com/user-attachments/assets/c7adb729-5408-4291-b6b2-5f9982c574dc" /><img width="388" height="422" alt="image" src="https://github.com/user-attachments/assets/4e0eff05-e36d-46a2-a563-ca74a5519db0" /><br/>
+
+#### Positive-Logic Convention and Negative-Logic Convention are Duality
+> (正逻辑约定和负逻辑约定互为对偶关系)
+<img width="944" height="528" alt="image" src="https://github.com/user-attachments/assets/311365f0-8897-4c7c-bedf-1a2ba5bef8f7" />
+
+#### Representation of Logic FUnctions
+<img width="936" height="570" alt="image" src="https://github.com/user-attachments/assets/1ad7a4d1-6979-4646-80f0-60ba5332cdf7" />
+
+
 
